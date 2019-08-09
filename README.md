@@ -33,14 +33,34 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+ANS: Semantic HTML is the use of html tags that convey meaning, both to the browsers that render such html pages and the developers
+     looking through such html code. Semantic html also helps to structure an html document such that accessibility to screen readers, audio reader,  and other devices are enhanced making a web page more accessible to people with special needs(special visual and audio disabibility needs). 
+     Also, Semantic html tags help to enhance web crawling activities or search engines, leading to SEO(Search Engine Optimization)
+     
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+ANS: The diplay property describes how an element will be placed in its parent container on an html file. examples are BLOCK, INLINE,        INLINE-BLOCK, NONE AND FLEX;
+     The two major differences btw Display: BLOCK and Display: INLINE are:
 
-3. What are the 4 areas of the box model?
+ 1. A block element occupies the entire with of the parent element. WHILE An inline element just takses up as much room for its content;
+ 2. A block element tolerates no HTML elements next to it and pushes any html to the next line,except when ordered otherwise. WHILE An inline element allows for HTML element to sit next to it
+
+
+
+3. What are the 4 areas of the box model? 
+ANS: CONTENT, PADDING, BORDER, MARGIN
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+ANS: THE CROSS-AXIS
 
 5. Explain why git is valuable to a team of developers.
+ANS: Git is a development tool for creating series of back up when working on a software project. it has some of the following advantages
+ - It gives you the ability to time-travel through different versions of your code
+ - If you accidentally delete your code files, by running certain commands, you can get your files back!
+ - If you accidentally change your code and break something, git can help you revert to a previous stable version.
+ - Git lets you share and exchange code with other developers easily.
+ - If you want to know what recent changes you made to you code, git will show you.
+ - Git lets you backup your code easily to a remote server.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

@@ -253,3 +253,25 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+.form-container{
+    width: 900px;
+    text-align: center;
+
+}
+.form-input{
+ display: block;
+}
+
+input{
+    width: 40%;
+    height: 50px;
+    margin: 20px 0px;
+    margin-left: 20px;
+}
+
+.text-area{
+    height: 200px;
+    width: 400px;
+    text-align: center;
+}
