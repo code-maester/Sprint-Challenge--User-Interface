@@ -133,7 +133,13 @@ p {
     align-items: center;
     justify-content: center;
 }
+.page-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
 
+}
 .middle-content .boxes .box1{
     background-color: teal;
 
