@@ -71,6 +71,13 @@ p {
     margin: 0 auto;
 }
 
+.header-content{
+    display: inline-block;
+}
+.list-item{
+    display: inline-block;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
