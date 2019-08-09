@@ -71,11 +71,24 @@ p {
     margin: 0 auto;
 }
 
+.header{
+    margin: 35px 0px;
+}
+
 .header-content{
     display: inline-block;
 }
 .list-item{
     display: inline-block;
+    margin-right: 70px;
+}
+
+.logo{
+    margin-right: 30px;
+}
+
+.banner-image{
+    margin-bottom: 25px;
 }
 
 .top-content {
