@@ -60,6 +60,7 @@ h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
     font-family: 'Rubik', sans-serif;
+    margin-top: 20px;
 }
 
 p {
@@ -69,6 +70,26 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+}
+
+.header{
+    margin: 35px 0px;
+}
+
+.header-content{
+    display: inline-block;
+}
+.list-item{
+    display: inline-block;
+    margin-right: 70px;
+}
+
+.logo{
+    margin-right: 30px;
+}
+
+.banner-image{
+    margin-bottom: 25px;
 }
 
 .top-content {
@@ -84,6 +105,13 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+.about-section{
+    padding: 0 20px;
+    padding: 20px;
+}
+
+
 
 .middle-content {
     margin-bottom: 20px;
@@ -110,6 +138,87 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.page-section{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    padding: 23px 20;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.divider{
+    margin: 25px 0px;
+}
+
+.items-container{
+    /* padding: 0 28px; */
+}
+
+hr{
+    width: 100%;
+    padding: 0 10px;
+}
+
+button{
+    width: 96px;
+    padding: 5px;
+    border-radius: 13%;
+    background-color: white;
+    display: block;
+    margin: 20px 0px;
+
+}
+.middle-content .boxes .box1{
+    background-color: teal;
+
+}
+
+.middle-content .boxes  .box2{
+    background-color: gold;
+}
+
+.middle-content .boxes  .box3{
+    background-color: cadetblue;
+}
+
+.middle-content .boxes .box4{
+    background-color: coral;
+}
+
+.middle-content .boxes .box5{
+    background-color: crimson;
+}
+
+.middle-content .boxes .box6{
+    background-color: forestgreen;
+}
+
+.middle-content .boxes .box7{
+    background-color: darkorchid;
+    
+}
+
+.middle-content .boxes .box8{
+    background-color: hotpink;
+    
+}
+
+.middle-content .boxes .box9{
+    background-color: indigo;
+    
+}
+
+.middle-content .boxes .box10{
+    background-color: dodgerblue;
+
+}
+
+.work-together-section{
+    margin: 30px 0;
+    padding: 0 20px;
 }
 
 .bottom-content {
@@ -143,4 +252,26 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+.form-container{
+    width: 900px;
+    text-align: center;
+
+}
+.form-input{
+ display: block;
+}
+
+input{
+    width: 40%;
+    height: 50px;
+    margin: 20px 0px;
+    margin-left: 20px;
+}
+
+.text-area{
+    height: 200px;
+    width: 400px;
+    text-align: center;
 }
